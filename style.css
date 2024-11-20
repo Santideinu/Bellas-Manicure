@@ -1,0 +1,150 @@
+body {
+    background-image: url(./assets/Fondo.jpg);
+    background-size: cover;
+}
+p {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+header {
+    background-color: #C71585;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-bottom: 10px;
+}
+h2, h3 {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+}
+.esmaltado, .classic, .premium, .permanente, 
+.service-permanente, .premium-permanente, 
+.acrilico, .service-esculpidas, 
+.esculpidas-permanente {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+.todosservicios {
+    width: 800px;
+    margin-left: 20%;
+}
+.mySlides {
+    display: none;
+}
+ul {
+    padding-top: 20px;
+    display: flex;
+    gap: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+footer li a:hover, header li a:hover {
+    text-decoration: none;
+    font-size: large;    
+    background: #b40d77;
+}
+.gif img {
+    width: 300px;
+    margin-left: 515px;
+}
+h1 {
+    text-align: center;
+}
+.precios {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: transparent;
+    height: 100px;
+    width: 450px;
+    margin-left: 450px;
+    border-radius: 10px;
+    border: 5px solid #ec89c8;
+}
+.precios li a:hover {
+    text-decoration: none;
+    font-size: xx-large;
+}
+footer {
+    background-color: #b40d77;
+    margin-bottom: -50px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-size: contain;
+    }
+
+    header {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .gif img {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .todosservicios {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .precios {
+        margin: 20px auto;
+        width: 90%;
+        font-size: 20px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    li a {
+        font-size: medium;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer li {
+        margin: 10px 0;
+    }
+
+    h1, h2, h3, p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
